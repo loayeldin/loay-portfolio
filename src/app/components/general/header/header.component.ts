@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
-  cvName: string = "loay_elden_gamal_resume.pdf";
+  cvName: string = "lastCv.pdf";
 
   constructor(
     private router: Router,
