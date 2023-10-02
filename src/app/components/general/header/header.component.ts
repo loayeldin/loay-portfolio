@@ -36,6 +36,7 @@ export class HeaderComponent implements OnInit {
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
   cvName: string = "lastCv.pdf";
+  ResumeName: string = "Loay-elden-gamal -resume.pdf";
 
   constructor(
     private router: Router,
@@ -70,6 +71,20 @@ export class HeaderComponent implements OnInit {
    
 
   }
+  
+  downloadResume(){
+   
+     
+     
+    // app url
+    let url = window.location.href;
+    console.log(url,this.ResumeName)
+
+    // Open a new window with the CV
+    window.open(url + "/../assets/cv/" + this.ResumeName, "_blank");
+ 
+
+}
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
     getScrollPosition(event) {

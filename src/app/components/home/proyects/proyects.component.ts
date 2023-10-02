@@ -34,7 +34,19 @@ export class ProyectsComponent implements OnInit {
       ghLink:'https://github.com/loayeldin/dynamic-todo-app',
       demoLink:'https://dynamic-todo-app.netlify.app/'
     },
-
+    {
+      imgs:[
+      
+        '../../../../assets/images/recipe-book/screenshot (1).png',
+        '../../../../assets/images/recipe-book/screenshot (2).png',
+        '../../../../assets/images/recipe-book/screenshot (3).png',
+      ],
+      Title:'Recipe Book',
+      Description:'Users can add new recipes to their collection and categorize them based on different types of cuisines or meal types. Each recipe includes a comprehensive list of ingredients required for the dish, making it convenient for users to shop for the necessary items.',
+      Technologies:['Angular','Css','Angular-Material' , 'RxJS','firebase'],
+      ghLink:'https://github.com/loayeldin/recipe-book',
+      demoLink:'https://recipe-book-theta-blue.vercel.app'
+    },
     {
       imgs:[
         '../../../../assets/images/design-show/1.png',
@@ -48,18 +60,7 @@ export class ProyectsComponent implements OnInit {
       demoLink:'https://design-show.netlify.app/'
     },
 
-    {
-      imgs:[
-      
-        '../../../../assets/images/recipe-book/2.png',
-        '../../../../assets/images/recipe-book/3.png',
-      ],
-      Title:'Recipe Book',
-      Description:'Users can add new recipes to their collection and categorize them based on different types of cuisines or meal types. Each recipe includes a comprehensive list of ingredients required for the dish, making it convenient for users to shop for the necessary items.',
-      Technologies:['Angular','Css','Angular-Material' , 'RxJS','firebase'],
-      ghLink:'https://github.com/loayeldin/recipe-project',
-      demoLink:'https://recipeeboook.netlify.app/'
-    },
+  
     {
       imgs:[
       
