@@ -18,6 +18,26 @@ export class JobsComponent implements OnInit {
         
       ]
     },
+
+
+    {
+      Tab: 'Freelance Work',
+      Title: 'Angular Developer',
+      Date: '2023',
+      Description: [
+        `we designed and developed a comprehensive online platform for the Faculty of Commerce with Dr.Ahmed Elahsry, streamlining the application process for master's and professional diploma programs`,
+        `This platform enables students to submit applications online and provides realtime application status tracking until final approval`,
+        `It also facilitates efficient file uploads and processing by staff, ultimately leading to student acceptance`,
+        `Additionally, the system allows accepted students to view available subjects within their chosen diploma and select their preferred courses`
+      
+      
+      
+      ]
+    },
+
+
+
+
     {
       Tab: 'Roots Solutions',
       Title: 'Front-end developer',
@@ -36,7 +56,13 @@ export class JobsComponent implements OnInit {
         'I graduated from the Faculty of Computers and Information, Kafr El-Sheikh University, Department of Software Engineering',
         'the graduation project is a prescription detection system(Med Match), that automates the process of reading prescriptions either by patients or by pharmacists themselves, additionally users have the ability to order their drugs online through our application.'
       ]
-    }
+    },
+
+
+    
+
+
+
   ];
   active = 0
   

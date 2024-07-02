@@ -9,7 +9,85 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class ProyectsComponent implements OnInit {
   Projects = [
+
     {
+      
+      imgs:[
+        '../../../../assets/images/commerce-platform/admin/9.PNG',
+        '../../../../assets/images/commerce-platform/admin/1.PNG',
+        '../../../../assets/images/commerce-platform/admin/2.PNG',
+        '../../../../assets/images/commerce-platform/admin/3.PNG',
+        '../../../../assets/images/commerce-platform/admin/4.PNG',
+        '../../../../assets/images/commerce-platform/admin/5.PNG',
+        '../../../../assets/images/commerce-platform/admin/6.PNG',
+        '../../../../assets/images/commerce-platform/admin/7.PNG',
+        '../../../../assets/images/commerce-platform/admin/8.PNG',
+
+
+
+        '../../../../assets/images/commerce-platform/employee/5.PNG',
+        '../../../../assets/images/commerce-platform/employee/1.PNG',
+        '../../../../assets/images/commerce-platform/employee/2.PNG',
+        '../../../../assets/images/commerce-platform/employee/3.PNG',
+        '../../../../assets/images/commerce-platform/employee/4.PNG',
+
+
+        '../../../../assets/images/commerce-platform/applicant/5.PNG',
+        '../../../../assets/images/commerce-platform/applicant/1.PNG',
+        '../../../../assets/images/commerce-platform/applicant/2.PNG',
+        '../../../../assets/images/commerce-platform/applicant/3.PNG',
+        '../../../../assets/images/commerce-platform/applicant/4.PNG',
+       
+
+
+
+
+        ],
+      Title:'Platform For The Faculty Of Commerce',
+      Description:`we designed and developed a comprehensive online platform for the Faculty of Commerce,
+      streamlining the application process for master's and professional diploma programs
+      This platform enables students to submit applications online and provides realtime application
+      status tracking until final approval.
+      It also facilitates efficient file uploads and processing by staff, ultimately leading to student
+      acceptance
+      Additionally, the system allows accepted students to view available subjects within their chosen
+      diploma and select their preferred courses`,
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'NodeJs'],
+      ghLink:'https://github.com/loayeldin/commerce-platform',
+      demoLink:'https://commerce-platform.vercel.app'
+    },
+
+
+
+
+
+    {
+      
+      imgs:[
+        '../../../../assets/images/footcap/2.PNG',
+        '../../../../assets/images/footcap/Capture.PNG',
+       
+        '../../../../assets/images/footcap/3.PNG',
+        '../../../../assets/images/footcap/4.PNG',
+        '../../../../assets/images/footcap/5.PNG',
+        '../../../../assets/images/footcap/6.PNG',
+        '../../../../assets/images/footcap/7.PNG',
+        '../../../../assets/images/footcap/8.PNG',
+        '../../../../assets/images/footcap/9.PNG',
+
+        ],
+      Title:'FootCap',
+      Description:"The e-commerce project you're working on includes essential functionalities for both users and admins. Users can browse products, add them to their cart, proceed to checkout where they input their information, and submit their order. On the admin side, there's a panel for managing orders, viewing details, and updating order statuses. This setup ensures a seamless experience for both purchasing customers and administrative staff, facilitating efficient order management and customer service using firbase.",
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'firebase'],
+      ghLink:'https://github.com/loayeldin/footcap',
+      demoLink:'https://footcap-six.vercel.app'
+    },
+
+
+
+
+    {
+      
       imgs:[
         '../../../../assets/images/medmatch/screenshot.png',
         '../../../../assets/images/medmatch/screenshot (1).png',
@@ -17,10 +95,40 @@ export class ProyectsComponent implements OnInit {
         '../../../../assets/images/medmatch/screenshot (3).png'],
       Title:'Med Match',
       Description:'The purpose of this project is to enhance the safety of prescribing drugs and to address the challenges related to prescribing errors which can have significant damage the patient’s health, the project ultimate goal is to contribute to the overall improvement of medication safety in the healthcare department.',
-      Technologies:['Angular','SASS','Angular-Material' , 'RxJS', 'Node.js'],
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'Node.js'],
       ghLink:'https://github.com/loayeldin/medmatch',
       demoLink:'https://medmatchh.netlify.app/'
     },
+
+
+
+
+
+    {
+      imgs:[
+        '../../../../assets/images/bahie-portfolio/1.PNG',
+        '../../../../assets/images/bahie-portfolio/2.PNG',
+        '../../../../assets/images/bahie-portfolio/3.PNG',
+        '../../../../assets/images/bahie-portfolio/4.PNG',
+      ],
+      Title:'Portfolio For Visual Artist',
+      Description:'Users can add, edit, delete, and prioritize tasks. Each task typically contains a title, description, due date, and status. The app allows users to reorder tasks by dragging and dropping them into different categories or positions, making it easy to organize and prioritize tasks.',
+      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS'],
+      ghLink:'https://github.com/loayeldin/bahie-portfolio', 
+      demoLink:'https://bahie-visual-artist.vercel.app'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
 
     {
       imgs:[
