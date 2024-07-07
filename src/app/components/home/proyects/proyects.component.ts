@@ -66,7 +66,7 @@ export class ProyectsComponent implements OnInit {
       imgs:[
         '../../../../assets/images/footcap/2.PNG',
         '../../../../assets/images/footcap/Capture.PNG',
-       
+        '../../../../assets/images/footcap/10.PNG',
         '../../../../assets/images/footcap/3.PNG',
         '../../../../assets/images/footcap/4.PNG',
         '../../../../assets/images/footcap/5.PNG',
