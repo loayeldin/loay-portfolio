@@ -9,6 +9,16 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class JobsComponent implements OnInit {
   Experiences: any[] = [
     {
+      Tab: 'Career180',
+      Title: 'Frontend React Intern',
+      Date: 'Oct 2024 – Dec 2024',
+      Description: [
+        'Collaborated on developing responsive and user-friendly web interfaces using React & Next.js',
+        'Gained hands-on experience with React hooks, context API, and functional components',
+        'Worked on improving project workflows by integrating tools like Redux and implementing reusable components'        
+      ]
+    },
+    {
       Tab: 'iSchoolTech',
       Title: 'Instructor',
       Date: 'Sep 2023 – present',

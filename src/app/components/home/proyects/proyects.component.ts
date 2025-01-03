@@ -9,7 +9,33 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class ProyectsComponent implements OnInit {
   Projects = [
+    {
+      
+      imgs:[
+        '../../../../assets/images/react-ecommerce/9.PNG',
+        './../../../assets/images/react-ecommerce/1.PNG',
+        './../../../assets/images/react-ecommerce/2.PNG',
+        './../../../assets/images/react-ecommerce/3.PNG',
+        './../../../assets/images/react-ecommerce/4.PNG',
+        './../../../assets/images/react-ecommerce/5.PNG',
+        './../../../assets/images/react-ecommerce/6.PNG',
+        './../../../assets/images/react-ecommerce/7.PNG',
+        './../../../assets/images/react-ecommerce/8.PNG',
+     
 
+
+
+      
+
+        ],
+      Title:'e-commerce project Next.js',
+      Description:`A modern e-commerce platform powered by cutting-edge technologies to deliver an exceptional shopping experience. The platform uses Clerk for secure authentication, 
+      offering a seamless login and registration process. Strapi serves as the backend for efficient content management and API integrations. Email functionality is managed by Resend, 
+      ensuring reliable communication for order confirmations and updates. Tailwind CSS and NextUI are used to design an attractive, responsive, and accessible interface. This tech stack guarantees high performance and scalability.`,
+      Technologies:['Next.js', 'NextUi','Tailwind','Strapi' , 'Stripe', 'Clerk', 'Redux'],
+      ghLink:'https://github.com/loayeldin/e-commerce-NextJs',
+      demoLink:'https://e-commerce-next-js-liart.vercel.app/'
+    },
     {
       
       imgs:[
