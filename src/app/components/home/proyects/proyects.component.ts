@@ -12,6 +12,36 @@ export class ProyectsComponent implements OnInit {
     {
       
       imgs:[
+        './../../../assets/images/codefix/register.PNG',
+        './../../../assets/images/codefix/login.PNG',
+        './../../../assets/images/codefix/faq.png',
+        './../../../assets/images/codefix/home.png',
+        './../../../assets/images/codefix/problems.png',
+        './../../../assets/images/codefix/problemdetails.PNG',
+        './../../../assets/images/codefix/profile.PNG',
+    
+     
+
+
+
+      
+
+        ],
+      Title:'Code Fix problem solving',
+      Description:`CodeFix is a problem-solving platform with an online compiler powered by the Piston API,
+       allowing users to write, run, and test code instantly in their preferred programming language.
+       It features the Monaco Editor for a rich, VS Code-like coding experience.
+       The platform offers a variety of coding challenges with different difficulty levels, helping users improve their problem-solving skills.
+       Firebase authentication with Google login ensures a seamless experience, along with user profile management.
+       CodeFix provides an intuitive and efficient interface for coding practice and learning.`,
+      Technologies:['React.js', 'Piston-Api','Tailwind','daisyui' ,'monaco-editor',  'Firebase', 'Redux'],
+      ghLink:'https://github.com/loayeldin/codefix',
+      demoLink:'https://codefix-one.vercel.app/home',
+      video: "https://drive.google.com/file/d/1Mrag2F93vqJIwS74HqDETbv01sAcn5l9/view?usp=drive_link",
+    },
+    {
+      
+      imgs:[
         '../../../../assets/images/react-ecommerce/9.PNG',
         './../../../assets/images/react-ecommerce/1.PNG',
         './../../../assets/images/react-ecommerce/2.PNG',
@@ -34,7 +64,8 @@ export class ProyectsComponent implements OnInit {
       ensuring reliable communication for order confirmations and updates. Tailwind CSS and NextUI are used to design an attractive, responsive, and accessible interface. This tech stack guarantees high performance and scalability.`,
       Technologies:['Next.js', 'NextUi','Tailwind','Strapi' , 'Stripe', 'Clerk', 'Redux'],
       ghLink:'https://github.com/loayeldin/e-commerce-NextJs',
-      demoLink:'https://e-commerce-next-js-liart.vercel.app/'
+      demoLink:'https://e-commerce-next-js-liart.vercel.app/',
+      video: "https://drive.google.com/file/d/1eq2Vk1WgHzckRggsDO-EAruG37LcNrRY/view?usp=sharing",
     },
     {
       
@@ -80,7 +111,9 @@ export class ProyectsComponent implements OnInit {
       diploma and select their preferred courses`,
       Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'NodeJs'],
       ghLink:'https://github.com/loayeldin/commerce-platform',
-      demoLink:'https://commerce-platform.vercel.app'
+      demoLink:'https://commerce-platform.vercel.app',
+      video: "https://drive.google.com/file/d/1DtEyaZNRlKSURrfNtXiDU15oo_tHnXmO/view?usp=drive_link",
+
     },
 
 
@@ -106,7 +139,9 @@ export class ProyectsComponent implements OnInit {
       Description:"The e-commerce project you're working on includes essential functionalities for both users and admins. Users can browse products, add them to their cart, proceed to checkout where they input their information, and submit their order. On the admin side, there's a panel for managing orders, viewing details, and updating order statuses. This setup ensures a seamless experience for both purchasing customers and administrative staff, facilitating efficient order management and customer service using firbase.",
       Technologies:['Angular','SCSS','Angular-Material' , 'RxJS', 'firebase'],
       ghLink:'https://github.com/loayeldin/footcap',
-      demoLink:'https://footcap-six.vercel.app'
+      demoLink:'https://footcap-six.vercel.app',
+      video: "https://drive.google.com/file/d/13TnxPy--rMTK2XnRie5kQq3VOfLQvuif/view?usp=drive_link",
+
     },
 
 
