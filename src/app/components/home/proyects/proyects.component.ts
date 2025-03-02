@@ -34,7 +34,7 @@ export class ProyectsComponent implements OnInit {
        The platform offers a variety of coding challenges with different difficulty levels, helping users improve their problem-solving skills.
        Firebase authentication with Google login ensures a seamless experience, along with user profile management.
        CodeFix provides an intuitive and efficient interface for coding practice and learning.`,
-      Technologies:['React.js', 'Piston-Api','Tailwind','daisyui' ,'monaco-editor',  'Firebase', 'Redux'],
+      Technologies:['React.js','Tailwind','daisyui' ,'monaco-editor',  'Firebase', 'Redux'],
       ghLink:'https://github.com/loayeldin/codefix',
       demoLink:'https://codefix-one.vercel.app/home',
       video: "https://drive.google.com/file/d/1Mrag2F93vqJIwS74HqDETbv01sAcn5l9/view?usp=drive_link",
