@@ -9,7 +9,17 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class JobsComponent implements OnInit {
   Experiences: any[] = [
     {
-      Tab: 'Career180',
+      Tab: 'Codxi',
+      Title: 'Frontend React.js ',
+      Date: 'Apr 2025 – present',
+      Description: [
+        'Implemented new CRM features such as lead tracking, user role management, Dashboards, and activity logs based on client feedback',
+        'Used Tailwind CSS and Ant Design to maintain a consistent and modern UI',
+        'Diagnosed and resolved bugs, optimized component re-renders, and ensured code reusability'        
+      ]
+    },
+    {
+      Tab: 'Career180(Intern)',
       Title: 'Frontend React Intern',
       Date: 'Oct 2024 – Dec 2024',
       Description: [

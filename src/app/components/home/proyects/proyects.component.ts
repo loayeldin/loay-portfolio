@@ -18,13 +18,7 @@ export class ProyectsComponent implements OnInit {
         './../../../assets/images/codefix/home.png',
         './../../../assets/images/codefix/problems.png',
         './../../../assets/images/codefix/problemdetails.PNG',
-        './../../../assets/images/codefix/profile.PNG',
-    
-     
-
-
-
-      
+        './../../../assets/images/codefix/profile.PNG',   
 
         ],
       Title:'Code Fix problem solving',
@@ -38,6 +32,26 @@ export class ProyectsComponent implements OnInit {
       ghLink:'https://github.com/loayeldin/codefix',
       demoLink:'https://codefix-one.vercel.app/home',
       video: "https://drive.google.com/file/d/1Mrag2F93vqJIwS74HqDETbv01sAcn5l9/view?usp=drive_link",
+    },
+    {
+      
+      imgs:[
+        './../../../assets/images/Amazon/home.png',
+        './../../../assets/images/Amazon/productDetails.png',
+        './../../../assets/images/Amazon/wishlist.png',
+        './../../../assets/images/Amazon/cart.png',
+        './../../../assets/images/Amazon/login.png',
+        './../../../assets/images/Amazon/register.png',
+       
+
+        ],
+      Title:'Amazon Clone',
+      Description:`Amazon Clone is a responsive e-commerce web application built with React and Vite for fast performance. It replicates core features of Amazon, including product listing, product details,
+       user authentication, cart management, and wishlist functionality. The app uses Redux Toolkit for efficient state management across authentication, product data, cart, and user interactions.`,
+      Technologies:['React.js','Tailwind','fake-store-api' ,'swiper', 'Redux'],
+      ghLink:'https://github.com/loayeldin/Amazon',
+      demoLink:'https://amazon-ten-sooty.vercel.app/',
+      video: "https://drive.google.com/file/d/1p8DIAkPeSOQKJCsfH_9KUGV5gKHV_tnz/view?usp=sharing",
     },
     {
       
