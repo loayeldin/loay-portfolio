@@ -8,6 +8,17 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class JobsComponent implements OnInit {
   Experiences: any[] = [
+       {
+      Tab: 'All for One Group',
+      Title: 'Software Engineer ',
+      Date: 'Mar 2026 – present',
+      Description: [
+        'Architected and provided an enterprise customer service portal on SAP BTP, defining the frontend architecture, technical documentation, and scalable design patterns using React, TypeScript, TanStack Query, and Tailwind CSS.',
+        'Engineered a full-featured document management module integrated with an enterprise DMS REST API, supporting end-to-end user workflows, including search, preview, download, and secure file sharing.',
+        'Built and maintained a shared authentication package used across multiple frontend applications, ensuring consistent and secure identity management at the platform level.',
+        'Worked across the full stack by interfacing with SAP CAP backend services, bridging frontend and backend integration within the SAP BTP ecosystem.'
+      ]
+    },
     {
       Tab: 'Codxi',
       Title: 'Frontend React.js ',
